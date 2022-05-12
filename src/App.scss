@@ -1,3 +1,34 @@
-.App {
+.numeraljs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  gap: 20px;
+
+  .forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .formData-1 {
+      display: flex;
+      flex-direction: column;
+      background-color: aqua;
+      width: 300px;
+      div {
+        padding: 10px;
+      }
+    }
+
+    .formData-2 {
+      display: flex;
+      flex-direction: column;
+      background-color: antiquewhite;
+      width: 300px;
+      div {
+        padding: 10px;
+      }
+    }
+  }
 }
